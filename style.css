@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    
+    font-family: "Poppins", sans-serif;
+}
+
+.navCont{
+    width: 100%;
+    position: fixed;
+    
+    box-shadow: 0 0 3px rgb(0 0 0 / 25%);
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    /* width: 85%; */
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.navLogoCont {
+} 
+
+.navlogoImg {
+    height: 70px;
+}
+
+.hamMenu {
+    visibility: collapse;
+}
+
+.ham {
+    font-size: 35px;
+    cursor: pointer;
+    color: black;
+    align-self: center;
+    padding: 10px;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.navTxt {
+    transition-duration: .3s;
+    text-decoration: none;
+    color: #4a5868;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #2d3e50;
+    padding: 12px;
+  }
+  
+  .navTxt:hover {
+    color: #ca4040;
+  }
+
+  .navdwntxt{
+    /* background-color: red; */
+  }
+
+
+  .BgImage{
+    padding-top: 77px;
+    display: flex;
+    flex-direction: row;
+    /* background-image: url("assests/backgroundImage.png"); */
+    background-image: url(https://raw.githubusercontent.com/Arabhya07092007/Medibey_assests/main/bgImage.png);
+    /* background-image: url(assests/backgroundImage.png); */
+
+    /* background-image: url(https://ai.mastersunion.org/assets/img/AIheroBanner.png); */
+  }
+
+  .bgdcImg{
+    width: 650px;
+    padding: 10px;
+    margin-top: 100px;
+  }
+
+  .bgtxtcont{
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+
+  .bgheading{
+    font-size: 58px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #1f0a51;
+  }
+
+  .bgdesc{
+    margin-top: 20px;
+  }
+
+
+.services{
+    background-color: #d6d7ff;
+    padding: 70px;
+}
+
+.cardCont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+
+.card{
+   
+    max-width: 235px;
+    box-shadow: 0 0 25px rgba(24,24,24,.161);
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.srvImg{
+    width: 235px;
+}
+
+.srvHd{
+    font-weight: 600;
+    color: #6b5bf9;
+    font-size: 18px;
+}
+
+.srvdesc{
+    font-size: 15px;
+}
+
+.abt{
+    background-color: #22184e;
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+}
+.mss{
+    
+    padding-right: 100px;
+}
+
+.msstxt1{
+    margin-top: 0;
+    color: #afa3b4;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.msstxt2{
+    padding-top: 20px;
+    font-size: 56px;
+    line-height: 100%;
+    font-weight: 300;
+    color: white;
+}
+
+.mssImg{
+    width: 350px;
+    margin-top: 20px;
+
+}
+
+.msstxt3{
+    padding-left: 55px;
+    background-position: 0 100%;    background-size: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 20px;
+}
+
+.msstxt4{
+    font-size: 18px;
+    line-height: 150%;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.impcard{
+    
+    padding: 72px;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: 70px;
+
+}
+
+.impacts{
+    margin: 70px;
+}
+
+.impImgCont{
+    /* margin: auto; */
+}
+
+.impTxtCont{
+    width: 540px;
+}
+
+.impTxt1{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.imptxt2{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.impImg{
+    width: 450px;
+    border-radius: 1.5rem;
+}
+
+.footer{
+    background-color: #1f0a51;
+    color: white;
+    padding: 70px;
+}
+
+.linksCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
+
+.ftImg{
+    width: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.footercont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.frtxt2{
+    font-weight: 600;
+    font-size: 18px;
+    
+    text-transform: uppercase;
+}
